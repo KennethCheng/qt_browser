@@ -77,12 +77,15 @@ public:
     QByteArray saveState(bool withTabs = true) const;
     bool restoreState(const QByteArray &state);
 
+    /* Kenneth Cheng add */
+    bool isKeyboardEn;
+
 public slots:
     void loadPage(const QString &url);
     void slotHome();
 
+    /* Kenneth Cheng add */
     void slotKeyShow();
-    void slotKeyHide();
 
 protected:
     void closeEvent(QCloseEvent *event);

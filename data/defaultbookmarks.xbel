@@ -1,40 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
 <xbel version="1.0">
-    <folder folded="yes">
+    <folder folded="no">
         <title>Bookmarks Bar</title>
-        <bookmark href="http://www.google.com.tw/">
-            <title>google</title>
+        <bookmark href="http://pic.yesky.com/">
+            <title>yesky</title>
         </bookmark>
-        <bookmark href="http://webkit.org/">
-            <title>WebKit.org</title>
+        <bookmark href="http://site.baidu.com/">
+            <title>baidu</title>
         </bookmark>
-        <bookmark href="http://doc.trolltech.com/">
-            <title>Qt Documentation</title>
+        <bookmark href="http://www.flickr.com/">
+            <title>flickr</title>
         </bookmark>
-        <bookmark href="http://doc.trolltech.com/qq/">
-            <title>Qt Quarterly</title>
+        <bookmark href="https://www.google.com/accounts/ServiceLogin?hl=en_US&amp;continue=http://picasaweb.google.com/lh/login?continue=http%3A%2F%2Fpicasaweb.google.com%2Fhome&amp;service=lh2&amp;ltmpl=gp&amp;passive=true">
+            <title>Picasa</title>
         </bookmark>
-        <bookmark href="http://labs.trolltech.com/">
-            <title>Qt Labs</title>
+        <bookmark href="http://www.wretch.cc/">
+            <title>Wretch</title>
         </bookmark>
-        <bookmark href="http://www.qtcentre.org/">
-            <title>Qt Centre</title>
+        <bookmark href="http://www.zooomr.com/">
+            <title>Zooomr</title>
         </bookmark>
-        <bookmark href="http://qt-apps.org/">
-            <title>Qt-Apps.org</title>
+        <bookmark href="http://www.pixnet.net/">
+            <title>PIXNET</title>
         </bookmark>
-        <bookmark href="http://qtnode.net/">
-            <title>qtnode</title>
+        <bookmark href="http://photo.xuite.net/">
+            <title>Xuite</title>
         </bookmark>
-       <bookmark href="http://xkcd.com/">
-            <title>xkcd</title>
+        <bookmark href="http://photo.youthwant.com.tw/">
+            <title>youthwant</title>
+        </bookmark>
+        <bookmark href="http://pic.bs2.to/">
+            <title>BS2</title>
+        </bookmark>
+        <bookmark href="http://blog.yam.com/">
+            <title>yam</title>
+        </bookmark>
+        <bookmark href="http://blog.roodo.com/">
+            <title>Roodo</title>
+        </bookmark>
+        <bookmark href="http://blog.sina.com.tw/">
+            <title>sina</title>
+        </bookmark>
+        <bookmark href="http://www.zorpia.com/">
+            <title>Zorpia</title>
+        </bookmark>
+        <bookmark href="http://www.youshow.tw/">
+            <title>youshow</title>
         </bookmark>
     </folder>
-    <folder folded="yes">
+    <folder folded="no">
         <title>Bookmarks Menu</title>
-        <bookmark href="http://reddit.com/">
-            <title>reddit.com: what's new online!</title>
+        <bookmark href="http://www.google.com.tw">
+            <title>google</title>
         </bookmark>
     </folder>
 </xbel>

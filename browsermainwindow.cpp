@@ -508,7 +508,7 @@ void BrowserMainWindow::setupToolBar()
     button->setIcon(icon);
     connect(button, SIGNAL(clicked()), this, SLOT(slotKeyShow()));
     m_navigationBar->addWidget(button);
-
+/*
     QPushButton *button2 = new QPushButton();
     QPixmap *pixmap2 = new QPixmap(":input-keyboard-hide.png");
     QIcon icon2(*pixmap2);
@@ -517,7 +517,7 @@ void BrowserMainWindow::setupToolBar()
     button2->setIcon(icon2);
     connect(button2, SIGNAL(clicked()), this, SLOT(slotKeyHide()));
     m_navigationBar->addWidget(button2);
-
+*/
     m_navigationBar->addWidget(m_tabWidget->lineEditStack());
 
     m_toolbarSearch = new ToolbarSearch(m_navigationBar);
@@ -906,14 +906,17 @@ void BrowserMainWindow::slotKeyboardWindow(bool enable)
 
 void BrowserMainWindow::slotKeyShow()
 {
-    virtualKeyBoard->show();
+    if(isKeyboardEn == 1)
+    {
+        virtualKeyBoard->show();
+        isKeyboardEn = 0;
+    }
+    else
+    {
+        virtualKeyBoard->hide();
+        isKeyboardEn = 1;
+    }
 }
-
-void BrowserMainWindow::slotKeyHide()
-{
-    virtualKeyBoard->hide();
-}
-
 
 void BrowserMainWindow::slotToggleInspector(bool enable)
 {
