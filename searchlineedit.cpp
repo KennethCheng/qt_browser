@@ -47,10 +47,16 @@
 #include <QtGui/QStyle>
 #include <QtGui/QStyleOptionFrameV2>
 
+
+#define DISABLE_CURSOR
+
+
 ClearButton::ClearButton(QWidget *parent)
   : QAbstractButton(parent)
 {
+#ifndef DISABLE_CURSOR
     setCursor(Qt::ArrowCursor);
+#endif
     setToolTip(tr("Clear"));
     setVisible(false);
     setFocusPolicy(Qt::NoFocus);
@@ -103,7 +109,9 @@ SearchButton::SearchButton(QWidget *parent)
     m_menu(0)
 {
     setObjectName(QLatin1String("SearchButton"));
+#ifndef DISABLE_CURSOR
     setCursor(Qt::ArrowCursor);
+#endif
     setFocusPolicy(Qt::NoFocus);
 }
 
